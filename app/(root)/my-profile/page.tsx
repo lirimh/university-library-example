@@ -1,4 +1,3 @@
-import { sampleBooks } from "@/app/constants";
 import { signOut } from "@/auth";
 import BookList from "@/components/BookList";
 import { Button } from "@/components/ui/button";
@@ -18,7 +17,7 @@ const Page = () => {
         <Button>Logout</Button>
       </form>
 
-      <BookList title="Borrowed book" books={sampleBooks} />
+      {/* <BookList title="Borrowed book" books={sampleBooks} /> */}
     </>
   );
 };
